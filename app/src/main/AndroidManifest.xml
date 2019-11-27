@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.ejemplo.ingenioteca.calculadorabasica">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="@string/app_name">
+        <activity android:name="app.ejemplo.ingenioteca.calculadorabasica.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9694099654540933~3434998736" /> <!--Esto es propio de cada applicación que agreges en ADMOB.-->
+        <activity
+            android:name="app.ejemplo.ingenioteca.calculadorabasica.MainActivity">
+        </activity>
+    </application>
+
+</manifest>

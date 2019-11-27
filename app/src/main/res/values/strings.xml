@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CalculadoraBasica</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tv_bienvenida">¡Vamos a operar!</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="cero">0</string>
+    <string name="doblecero">00</string>
+    <string name="punto">.</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multiplicación">x</string>
+    <string name="división">/</string>
+    <string name="del">del</string>
+    <string name="ac">ac</string>
+    <string name="igual">=</string>
+    <string name="rb_silencio">Silencio</string>
+
+    <string name="ad_banner">ca-app-pub-9694099654540933/1522101514</string>
+    // Banner de prueba: ca-app-pub-3940256099942544/6300978111
+    // Banner de publicidad para esta app: ca-app-pub-9694099654540933/1522101514
+
+</resources>
